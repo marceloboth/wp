@@ -123,8 +123,6 @@ if ($configExtra = getenv_docker('WORDPRESS_CONFIG_EXTRA', '')) {
 }
 
 define('WP_ALLOW_MULTISITE', true);
-
-define('WP_ALLOW_MULTISITE', true);
 define( 'MULTISITE', true );
 define( 'SUBDOMAIN_INSTALL', true );
 define( 'DOMAIN_CURRENT_SITE', getenv_docker('WORDPRESS_DOMAIN_CURRENT_SITE', 'localhost'));
